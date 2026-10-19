@@ -1,3 +1,8 @@
+> **Team project** developed at [IvLabs, VNIT Nagpur](https://github.com/IvLabs) for the **National Innovation Drone Challenge (NIDAR) 2025** — **Ignite Prize, national top 5 of 100+ teams**.
+> Original repository: [IvLabs/Dual_UAV_Scan-and-Spray_for_Precision_Agriculture](https://github.com/IvLabs/Dual_UAV_Scan-and-Spray_for_Precision_Agriculture).
+> **My contributions:** Team Lead, Inter-drone communication, onboard crop-stress detection (HSV dual-mask + ND filtering), pixel-to-GPS geotagging, and system integration.
+> Paper: *ASME Letters in Translational Robotics*, 2026 (in press), co-first author.
+
 # Dual UAV Scan-and-Spray for Precision Agriculture.
 ## Abstract
 This project presents an autonomous, decentralized dual-UAV framework for real-time crop monitoring and targeted spraying. The system integrates a lightweight scanning UAV equipped with edge-computing (NVIDIA Jetson Orin) and a high-payload spraying UAV, operating synchronously to eliminate idle hovering and reduce mission time. The scanning UAV utilizes an onboard Hue-Saturation- Value (HSV) color segmentation pipeline, enhanced by dual region masking and a Neutral Density (ND) filter, to ensure robust target identification under varying sunlight. Upon detection, a photogrammetric geotagging algorithm instantly translates 2D image coordinates into global GPS positions and dynamically transmits these targets to the sprayer. To ensure accurate chemical deposition, the spraying UAV then employs a vision-assisted centering control algorithm to compensate for wind drift and GPS inaccuracies. The complete framework was validated through real-world experiments on a 2-acre agricultural field.
