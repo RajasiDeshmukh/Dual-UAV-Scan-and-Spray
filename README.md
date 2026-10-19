@@ -1,6 +1,9 @@
 > **Team project** developed at [IvLabs, VNIT Nagpur](https://github.com/IvLabs) for the **National Innovation Drone Challenge (NIDAR) 2025** — **Ignite Prize, national top 5 of 100+ teams**.
+
 > Original repository: [IvLabs/Dual_UAV_Scan-and-Spray_for_Precision_Agriculture](https://github.com/IvLabs/Dual_UAV_Scan-and-Spray_for_Precision_Agriculture).
+
 > **My contributions:** Team Lead, Inter-drone communication, onboard crop-stress detection (HSV dual-mask + ND filtering), pixel-to-GPS geotagging, and system integration.
+
 > Paper: *ASME Letters in Translational Robotics*, 2026 (in press), co-first author.
 
 # Dual UAV Scan-and-Spray for Precision Agriculture.
